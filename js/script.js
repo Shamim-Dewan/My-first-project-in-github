@@ -15,12 +15,12 @@ function binary(e){
     }
     
     binaryNum = Number(num).toString(2);
-    bi_result.value = binaryNum;
+    bi_result.value = "Binary Number:" + binaryNum;
     
     octalNum = Number(num).toString(8);
-    oct_result.value = octalNum;
+    oct_result.value = "Octal Number:" + octalNum;
     
     hexadecimalNum = Number(num).toString(16);
-    hex_result.value = hexadecimalNum;
+    hex_result.value = "Hexadecimal Number:" + hexadecimalNum;
 }
 submit.addEventListener('click',binary);
